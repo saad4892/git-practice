@@ -9,5 +9,13 @@ namespace Git_Practice.Controllers
         {
             return View();
         }
+
+
+
+        [HttpGet]
+        public IActionResult add()
+        {
+            return View();
+        }
     }
 }
