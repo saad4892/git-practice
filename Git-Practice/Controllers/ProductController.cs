@@ -15,6 +15,7 @@ namespace Git_Practice.Controllers
         [HttpGet]
         public IActionResult add()
         {
+            int x = 10;
             return View();
         }
     }
